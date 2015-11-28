@@ -1,0 +1,52 @@
+
+
+/*.top {
+
+	background-image: url('../img/skyline2.png');
+	height: 438px;
+}*/
+
+#logo {
+	width: 50%;
+	margin-left: 140px;
+}
+
+#name {
+	margin-top: 30px;
+}
+
+.middle{
+
+	background-image: url('../img/cloudycrossA.jpg');
+	background-position: center;
+	background-size: 1100px 900px;
+}
+
+h1{
+
+	color: #5894b8;
+}
+h2{
+	color: red;
+}
+
+
+.navbar {
+
+	background: white;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+.collapse{
+	background: #5894b8;
+	color: black;
+	width: 100%
+}
+ 
+ ul a{
+
+ 	color: black;
+ 	font-size: 18px;
+ }
