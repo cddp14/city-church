@@ -5,29 +5,51 @@
 	background-image: url('../img/skyline2.png');
 	height: 438px;
 }*/
+body{
+	font-family: "Crimson", serif;
+  	font-weight: normal;
+
+}
+
 
 #logo {
-	width: 50%;
-	margin-left: 140px;
+	width: 60%;
+	margin-left: 80px;
+	margin-top: 10px;
 }
 
 #name {
-	margin-top: 30px;
+	margin-top: 10px;
+	margin-left: -60px;
+	font-family: 'Dancing Script', cursive, serif;
+  	font-weight: 700;
+  	font-size: 65px;
+  	
+
 }
+h1 a, h1 a:hover{
+	color:#7c50a7; 	
+}
+
 
 .middle{
 
-	background-image: url('../img/cloudycrossA.jpg');
-	background-position: center;
-	background-size: 1100px 900px;
+	/*background-image: url('../img/cloudycrossA.jpg');
+	background-position: left;
+	/*background-size: 1100px 900px;*/*/
 }
 
-h1{
 
-	color: #5894b8;
+#verse{
+	font-family: 'PT Serif', serif;
+  font-size: 1.25em;
+  font-style: italic;
+
 }
+
 h2{
-	color: red;
+	color: black;
+
 }
 
 
@@ -37,16 +59,146 @@ h2{
 	padding: 0;
 	margin: 0;
 	width: 100%;
+	border-bottom-width: 4px;
+	 border-bottom-color: #7c50a7;/*purple*/
+	 
 }
 
 .collapse{
-	background: #5894b8;
+
+	background: #f3c10a; /*#e3b637;*//*#d68d03;*/
 	color: black;
-	width: 100%
+	width: 100%;
+	text-align: center;
+
+	/*border-top-style: solid;
+	border-top-width: 4px;
+	border-top-color: #7c50a7;*//*purple*/
+
+}
+
+ul li{
+	text-align: center;
+	display: inline-block;
 }
  
  ul a{
 
  	color: black;
  	font-size: 18px;
+ 	text-align: center
+ }
+
+
+
+
+/* Carousel
+================================ */
+
+.carousel{
+background-image: url("../img/bg2.jpg");
+ /*background-color: #000;*/
+/* background:none;*/
+  margin: 0px;
+  padding: 0px;
+}
+.carousel-inner{
+	margin: 0px;
+	padding: 0px;
+}
+.carousel-indicators {
+  bottom: 0;
+}
+.carousel-indicators .active {
+
+  background-color: #222;
+}
+.carousel-indicators li {
+  border-color: #222;
+}
+
+
+
+/*.btn {
+
+  
+  float: center;
+  margin-left: 0px;
+  border-width: medium;
+  font-size: 20px;
+  font-style: bold;
+
+}*/
+
+.pastors{
+	width: 60%;
+}
+
+#slides{
+
+  float: center;
+  /*width: 60%;
+  height: 40%;
+  margin-left: 20%;*/
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 1010px;
+
+}
+
+.item h1{
+    
+     font-size: 1.75em;
+     margin-top: 0px;
+
+
+}
+
+
+#moto{
+
+	text-align: center;
+}
+
+.jumbotron{
+
+	padding: 20px 20px 20px 20px;
+	background-image: url("../img/bg2.jpg");
+
+}
+
+ .first{
+
+ 	background: #f3c10a;/*#d68d03;*/
+ 	color: white;
+ 	border-top-style: solid;
+ 	border-top-width: 4px;
+ 	border-top-color:  #7c50a7; /*purple*/
+ 	
+ }
+
+ 
+
+ #service {
+ 	text-align: left;
+ 	font-size: 16px;
+ }
+
+ .top{
+ 	text-align: center;
+ }
+
+ .church{
+ 	width: 35%;
+ 	margin-left: 125px;
+ 	margin-top: 15px;
+ }
+
+.second{
+	text-align: left;
+	border-top-style: solid;
+ 	border-top-width: 4px;
+ 	border-top-color:  #7c50a7; /*purple*/
  }
