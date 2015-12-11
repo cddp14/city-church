@@ -26,7 +26,7 @@ p, .jumbotron p{
 	margin-left: 0px;
 	font-family: 'Dancing Script', cursive, serif;
   	font-weight: 700;
-  	font-size: 65px;
+  	font-size: 80px;
   	
 
 }
@@ -45,7 +45,7 @@ h1 a, h1 a:hover{
 
 #verse{
 	font-family: 'PT Serif', serif;
-  font-size: 1.50em;
+  font-size: 1.75em;
   font-style: italic;
 
 }
@@ -63,7 +63,7 @@ h2{
 	margin: 0;
 	width: 100%;
 	border-bottom-width: 4px;
-	 border-bottom-color: #7c50a7;/*purple*/
+	border-bottom-color: #7c50a7;/*purple*/
 	 
 }
 
@@ -148,7 +148,7 @@ background-image: url("../img/bg2.jpg");
   margin-bottom: 0px;
   margin-right: 0px;
   margin-left: 0px;
-  width: 1010px;
+ 
 
 }
 
