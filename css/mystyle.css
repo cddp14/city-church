@@ -16,14 +16,14 @@ p, .jumbotron p{
 
 
 #logo {
-	width: 60%;
-	margin-left: 80px;
+	/*width: 50%;*/
+	margin-left: 10px;
 	margin-top: 10px;
 }
 
 #name {
 	margin-top: 10px;
-	margin-left: -60px;
+	margin-left: 0px;
 	font-family: 'Dancing Script', cursive, serif;
   	font-weight: 700;
   	font-size: 65px;
@@ -45,7 +45,7 @@ h1 a, h1 a:hover{
 
 #verse{
 	font-family: 'PT Serif', serif;
-  font-size: 1.25em;
+  font-size: 1.50em;
   font-style: italic;
 
 }
@@ -152,13 +152,6 @@ background-image: url("../img/bg2.jpg");
 
 }
 
-.item h1{
-    
-     font-size: 1.75em;
-     margin-top: 0px;
-
-
-}
 
 
 #moto{
@@ -181,11 +174,15 @@ label{
  .first{
 
  	background: #f3c10a;/*#d68d03;*/
- 	color: white;
+ 	/*color: white;*/
  	border-top-style: solid;
  	border-top-width: 4px;
  	border-top-color:  #7c50a7; /*purple*/
  	
+ }
+
+ .first h4{
+ 	font-size: 16px;
  }
 
  
@@ -197,10 +194,11 @@ label{
 
  .top{
  	text-align: center;
+ 	font-size: 18px;
  }
 
  .church{
- 	width: 35%;
+ 	width: 40%;
  	margin-left: 125px;
  	margin-top: 15px;
  }
@@ -211,3 +209,47 @@ label{
  	border-top-width: 4px;
  	border-top-color:  #7c50a7; /*purple*/
  }
+
+ .second h5{
+ 	font-weight: bold;
+ }
+
+
+/*************************************************************************/
+@media (min-width: 768px) and (max-width: 991px){
+
+	#name{
+		font-size: 55px;
+	}
+	#verse{
+		font-size: 1.30em;
+	}
+
+	#moto h2{
+		font-size: 24px;
+	}
+
+	
+}
+
+@media (max-width: 767px){
+
+	#name{
+		font-size: 35px;
+	}
+	#verse{
+		font-size: 1.25em;
+	}
+
+	#moto h2{
+		font-size: 20px;
+	}
+
+	.first h4, h5{
+		text-align: center;
+	}
+
+	.second h5{
+ 	text-align: center;
+ }
+}
