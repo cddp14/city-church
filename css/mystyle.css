@@ -11,7 +11,7 @@ body{
 
 }
 p, .jumbotron p{
-	font-size: 16px;
+	font-size: 18px;
 }
 
 
@@ -26,7 +26,7 @@ p, .jumbotron p{
 	margin-left: 0px;
 	font-family: 'Dancing Script', cursive, serif;
   	font-weight: 700;
-  	font-size: 80px;
+  	font-size: 75px;
   	
 
 }
@@ -45,7 +45,7 @@ h1 a, h1 a:hover{
 
 #verse{
 	font-family: 'PT Serif', serif;
-  font-size: 1.75em;
+  font-size: 1.60em;
   font-style: italic;
 
 }
@@ -133,17 +133,10 @@ background-image: url("../img/bg2.jpg");
 
 }*/
 
-.pastors{
-	width: 65%;
-	margin-top: 30px;
-}
-
 #slides{
 
-  float: center;
-  /*width: 60%;
-  height: 40%;
-  margin-left: 20%;*/
+  
+  
   margin-top: 0px;
   margin-bottom: 0px;
   margin-right: 0px;
@@ -162,10 +155,19 @@ background-image: url("../img/bg2.jpg");
 .jumbotron{
 
 	/*padding: 20px 20px 20px 20px;*/
-	background-image: url("../img/bg2.jpg");
+	background-image: url("../img/bg.jpg");
 	margin-top: 30px;
 
 }
+
+.aboutJumbo, .eventsJumbo {
+	background-image: url("../img/bg2.jpg");
+}
+
+
+form{
+	margin-left: 20px;
+} 
 
 label{
 	font-size: 16px;
@@ -174,7 +176,6 @@ label{
  .first{
 
  	background: #f3c10a;/*#d68d03;*/
- 	/*color: white;*/
  	border-top-style: solid;
  	border-top-width: 4px;
  	border-top-color:  #7c50a7; /*purple*/
@@ -183,6 +184,11 @@ label{
 
  .first h4{
  	font-size: 16px;
+
+ }
+
+ .day{
+ 	text-decoration: underline;
  }
 
  
@@ -192,9 +198,10 @@ label{
  	font-size: 16px;
  }
 
- .top{
+ .top h4{
  	text-align: center;
  	font-size: 18px;
+ 	text-decoration: underline;
  }
 
  .church{
@@ -229,21 +236,33 @@ label{
 		font-size: 24px;
 	}
 
+	textarea{
+		width:300px;
+	}
 	
 }
 
 @media (max-width: 767px){
 
 	#name{
-		font-size: 35px;
+		font-size: 40px;
 	}
 	#verse{
 		font-size: 1.25em;
 	}
 
 	#moto h2{
-		font-size: 20px;
+		font-size: 18px;
 	}
+
+	textarea{
+		width: 250px;
+	}
+
+	.contactInfo{
+	margin-left: 20px;
+}
+
 
 	.first h4, h5{
 		text-align: center;
@@ -251,5 +270,9 @@ label{
 
 	.second h5{
  	text-align: center;
+ }
+
+ .church{
+ 	margin-left: 105px;
  }
 }
