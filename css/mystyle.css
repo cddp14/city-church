@@ -15,10 +15,14 @@ p, .jumbotron p{
 }
 
 
-#logo {
-	/*width: 50%;*/
+.logo {
+	
 	margin-left: 10px;
 	margin-top: 10px;
+}
+
+.img-responsive.logo{
+	max-width: 80%
 }
 
 #name {
@@ -32,14 +36,6 @@ p, .jumbotron p{
 }
 h1 a, h1 a:hover{
 	color:#7c50a7; 	
-}
-
-
-.middle{
-
-	/*background-image: url('../img/cloudycrossA.jpg');
-	background-position: left;
-	/*background-size: 1100px 900px;*/*/
 }
 
 
@@ -164,6 +160,10 @@ background-image: url("../img/bg2.jpg");
 	background-image: url("../img/bg2.jpg");
 }
 
+.pastors{
+	margin-bottom: 20px;
+}
+
 
 form{
 	margin-left: 20px;
@@ -183,7 +183,7 @@ label{
  }
 
  .first h4{
- 	font-size: 16px;
+ 	font-size: 18px;
 
  }
 
@@ -206,7 +206,7 @@ label{
 
  .church{
  	width: 40%;
- 	margin-left: 125px;
+ 	margin-left: 145px;
  	margin-top: 15px;
  }
 
@@ -229,7 +229,7 @@ label{
 		font-size: 55px;
 	}
 	#verse{
-		font-size: 1.30em;
+		font-size: 1.40em;
 	}
 
 	#moto h2{
@@ -241,14 +241,14 @@ label{
 	}
 	
 }
-
+/****************************************************/
 @media (max-width: 767px){
 
 	#name{
-		font-size: 40px;
+		font-size: 50px;
 	}
 	#verse{
-		font-size: 1.25em;
+		font-size: 1.30em;
 	}
 
 	#moto h2{
