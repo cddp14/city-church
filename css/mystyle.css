@@ -1,10 +1,6 @@
 
 
-/*.top {
 
-	background-image: url('../img/skyline2.png');
-	height: 438px;
-}*/
 body{
 	font-family: "Crimson", serif;
   	font-weight: normal;
@@ -150,7 +146,7 @@ background-image: url("../img/bg2.jpg");
 
 .jumbotron{
 
-	/*padding: 20px 20px 20px 20px;*/
+	
 	background-image: url("../img/bg.jpg");
 	margin-top: 30px;
 
@@ -175,7 +171,7 @@ label{
 
  .first{
 
- 	background: #f3c10a;/*#d68d03;*/
+ 	background: #f3c10a;/*gold color*/
  	border-top-style: solid;
  	border-top-width: 4px;
  	border-top-color:  #7c50a7; /*purple*/
@@ -218,6 +214,19 @@ label{
  }
 
  .second h5{
+ 	font-weight: bold;
+ }
+
+ ul a.selected{
+ 	
+ 	text-decoration: underline;
+
+ }
+
+ #link{
+ 	text-decoration: underline;
+ 	color:#7c50a7; /*puprle*/
+ 	font-style: italic;
  	font-weight: bold;
  }
 
