@@ -276,18 +276,21 @@ if (isset($_REQUEST['submitted'])) {
         <footer class="second">
         	<div class="container-fluid">
         		<div class="row">
-        			<div class="col-sm-4">
-        				<img class="img-rounded church" src="img/church2.jpg">
-        				
-        			</div>
-        			<div class="col-sm-6">
-        				<h5>1100 S.26th Street</h5>
-                        <h5>Louisville, KY 40210</h5>
-        				<h5>Phone: (502) 772-5384</h5>
-        				<h5>Prayer Line: (502) 772-1322</h5>
-        				<h5>Email: citychurchinc1@att.net</h5>
-        				
-        			</div>
+          			<div class="col-sm-4">
+          				<img class="img-rounded church" src="img/church2.jpg">
+          				
+          			</div>
+          			<div class="col-sm-6">
+          				<h5>1100 S.26th Street</h5>
+                          <h5>Louisville, KY 40210</h5>
+          				<h5>Phone: (502) 772-5384</h5>
+          				<h5>Prayer Line: (502) 772-1322</h5>
+          				<h5>Email: citychurchinc1@att.net</h5>
+          				
+          			</div>
+                <div class="col-sm-2 hidden-xs">
+                <h6><small>Image at the top of the page, on the left hand side of screen, is courtesy of David Castillo Dominici at FreeDigitalPhotos.net</small></h6> 
+              </div>
         			
         		</div>
         		
