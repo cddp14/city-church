@@ -87,7 +87,7 @@ ul li{
 
 
 
-/* Carousel
+/* Carousel and Jumbotrons
 ================================ */
 
 .carousel{
@@ -152,13 +152,27 @@ background-image: url("../img/bg2.jpg");
 
 }
 
-.aboutJumbo, .eventsJumbo {
+.aboutJumbo {
 	background-image: url("../img/bg2.jpg");
 }
 
 .pastors{
 	margin-bottom: 20px;
 }
+
+#link{
+ 	text-decoration: underline;
+ 	color:#7c50a7; /*puprle*/
+ 	font-style: italic;
+ 	font-weight: bold;
+ }
+
+
+.eventsJumbo{
+	background-image: url("../img/bg5.jpg");
+	
+}
+
 
 
 form{
@@ -168,6 +182,9 @@ form{
 label{
 	font-size: 16px;
 }
+
+/*  Footers        
+===============================*/
 
  .first{
 
@@ -223,13 +240,7 @@ label{
 
  }
 
- #link{
- 	text-decoration: underline;
- 	color:#7c50a7; /*puprle*/
- 	font-style: italic;
- 	font-weight: bold;
- }
-
+ 
 
 /*************************************************************************/
 @media (min-width: 768px) and (max-width: 991px){
