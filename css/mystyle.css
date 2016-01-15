@@ -169,7 +169,8 @@ background-image: url("../img/bg2.jpg");
 
 
 .eventsJumbo{
-	background-image: url("../img/bg5.jpg");
+	background-image: url("../img/bg3.jpg");
+	min-height: 100px;
 	
 }
 
