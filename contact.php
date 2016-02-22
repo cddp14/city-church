@@ -104,8 +104,9 @@ if (isset($_REQUEST['submitted'])) {
 			<div class="collapse navbar-collapse">
 				<ul class="nav nav-pills pull-right">
 					<li><a href="index.html">HOME</a></li>
-					<li><a href="about.html"  >ABOUT</a></li>
+					<li><a href="about.html" >ABOUT</a></li>
 					<li><a href="events.html">EVENTS</a></li>
+          <li><a href="give.html">GIVE</a></li>
 					<li><a href="contact.php" class="selected">CONTACT</a></li>
 				</ul>
 			</div>
@@ -127,7 +128,7 @@ if (isset($_REQUEST['submitted'])) {
 						 <p>Phone:(502)772-5384<p>
 						 <p>Prayer Line :(502)772-1322</p>
 						 <br>
-						 <p>To send us a message, use the following form.  We love hearing from you.</p>
+						 <p>Prayer request? To send us a message, use the following form.  We love hearing from you.</p>
 
 					</div>
 					<div class="col-sm-6">
@@ -281,8 +282,9 @@ if (isset($_REQUEST['submitted'])) {
           				
           			</div>
           			<div class="col-sm-6">
+                  <h5>City Church International</h5>
           				<h5>1100 S.26th Street</h5>
-                          <h5>Louisville, KY 40210</h5>
+                  <h5>Louisville, KY 40210</h5>
           				<h5>Phone: (502) 772-5384</h5>
           				<h5>Prayer Line: (502) 772-1322</h5>
           				<h5>Email: citychurchinc1@att.net</h5>
